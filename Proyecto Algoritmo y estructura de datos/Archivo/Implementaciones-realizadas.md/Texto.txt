@@ -1,0 +1,13 @@
+# Implementaciones realizadas (selección de 4)
+
+Grupo: GLHF
+
+Implementaciones escogidas para este entregable:
+1. Sistema de préstamos básico — (parcial): tablas y funciones base preparadas en DB (se puede extender). [estado: esquema SQL incluido]
+2. Gestión de inventario — funciones de agregar/eliminar/consultar libros implementadas. [estado: implementado en features/]
+3. Motor de recomendación (mínimo viable) — idea: recomendaciones por calificación y género. [estado: boceto, algoritmo simple a implementar]
+4. Reporting básico — función listar libros populares (calificación alta) ya implementada como ejemplo. [estado: implementado en features/]
+
+Notas:
+- Las implementaciones están en módulos separados para facilitar despliegue independiente.
+- Próximos pasos: tests unitarios, packaging, endpoints REST y panel de administración.

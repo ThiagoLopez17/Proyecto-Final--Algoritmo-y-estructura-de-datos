@@ -1,0 +1,17 @@
+# Análisis funcional actual
+
+Este repositorio contiene:
+- Interfaz GUI (Tkinter) en `app.py` que orquesta funcionalidades.
+- Módulos de funcionalidades en `features/`: 
+  - `feature_populares.py` — listar libros con calificación >= 4
+  - `feature_agregar.py` — agregar libro (diálogo)
+  - `feature_eliminar.py` — eliminar libro (selección)
+  - `feature_buscar.py` — buscar libro por título (búsqueda binaria)
+- Conector `db_connection.py` que usa MySQL si está disponible o SQLite local como fallback.
+
+Estado:
+- Funcionalidad CRUD básica sobre la tabla `libros`.
+- Interfaz minimalista pero preparada para integrar nuevas funciones importándolas desde `features/`.
+- Documentación y scripts para organizar repositorio.
+
+Grupo: GLHF

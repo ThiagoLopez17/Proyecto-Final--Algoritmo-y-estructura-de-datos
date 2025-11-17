@@ -1,0 +1,14 @@
+# Diez posibles implementaciones para uso comercial
+
+1. Sistema de préstamos con notificaciones por email / SMS (recordatorios, vencimientos).
+2. Gestión de inventario con análisis de rotación y predicción de demanda.
+3. Marketplace de libros usados integrado (compra/venta entre usuarios).
+4. Motor de recomendación (collaborative + content-based) para sugerir lecturas.
+5. API REST para integrarse con apps móviles y catálogos externos.
+6. Módulo de reporting avanzado (KPIs, dashboards) con export a Excel/PDF.
+7. Sistema de membresías y pagos (suscripciones, penalizaciones por demora).
+8. Integración con OCR para digitalizar libros o catálogos.
+9. App móvil nativa que permita reservas y pagos en línea.
+10. Servicio SaaS para bibliotecas pequeñas: multi-tenant, panel admin y billing.
+
+(Se seleccionan 4 para implementar en este proyecto: 1, 2, 4 y 6)
